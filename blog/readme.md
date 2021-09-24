@@ -2,7 +2,7 @@
 
 ## Création de la base de données
 
-1. Créer une nouvelle base de données live-46_{nom utilisateur}_blog, interclassement utf8mb4_unicode_ci
+1. Créer une nouvelle base de données stustuky_blog, interclassement utf8mb4_unicode_ci
 2. Créer les différentes tables selon ce [schéma] (http://live-46.sites.3wa.io/dev/php/m01/exercices/blog/blog.png)
  * les id (clés primaires) : type int, pas de taille/valeurs, index primary (cliquer sur exécuter sur la modale), cocher la case AI
  * title et les name : type varchar, préciser la taille maximum dans taille/valeurs
@@ -19,8 +19,6 @@ category_id -> categories.id
 4. Créer quelques catégories, quelques auteurs puis quelques articles
 
 ## Création du site
-
-Démo : [Lien vers le blog](http://cedricleclinche.sites.3wa.io/blog/src/index.php)
 
 ### Fonctionnalités attendues
 
