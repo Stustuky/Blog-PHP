@@ -1,6 +1,7 @@
 # Blog
 
 ## Création de la base de données
+(Le fichier .sql ce trouve dans le dossier source)
 
 1. Créer une nouvelle base de données stustuky_blog, interclassement utf8mb4_unicode_ci
 2. Créer les différentes tables selon ce [schéma] (http://live-46.sites.3wa.io/dev/php/m01/exercices/blog/blog.png)
@@ -17,8 +18,6 @@ post_id -> posts.id
 author_id -> users.id
 category_id -> categories.id
 4. Créer quelques catégories, quelques auteurs puis quelques articles
-
-## Création du site
 
 ### Fonctionnalités attendues
 
