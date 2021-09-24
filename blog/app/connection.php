@@ -3,9 +3,9 @@
 function getConnection(): PDO
 {
     return new PDO(
-        'mysql:host=home.3wa.io:3307;dbname=live-46_cle_blog;charset=UTF8', 
-        'cedricleclinche', 
-        'M2MyNzJkNGZiODk4OTIzMGFkMmFmYmE43Wa!', [
+        'mysql:host=localhost;dbname=stustuky_blog;charset=UTF8', 
+        'root', 
+        '', [
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]
